@@ -1,0 +1,11 @@
+group Server
+    FSharp.Core
+    Giraffe
+    Microsoft.AspNetCore
+    Microsoft.AspNetCore.StaticFiles
+    Fable.Remoting.Giraffe
+    ILLink.Tasks
+    Microsoft.ApplicationInsights.AspNetCore
+    WindowsAzure.Storage
+    LiteDB
+    LiteDB.FSharp

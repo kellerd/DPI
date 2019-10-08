@@ -1,0 +1,33 @@
+html, body
+  font-family: 'Open Sans', serif
+.button
+  &.is-primary
+    background: rgb(0, 193, 164)
+.button
+  &.is-info
+    background: rgb(24, 118, 180) 
+.button
+  &.is-success
+    background: #189945
+.tag:not(body)
+  &.is-info
+    background: rgb(24, 118, 180)  
+.hero
+  &.is-primary
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://unsplash.it/1200/900?random') no-repeat center center fixed
+    -webkit-background-size: cover
+    -moz-background-size: cover
+    -o-background-size: cover
+    background-size: cover
+  .nav, &.is-success .nav
+    -webkit-box-shadow: none
+    box-shadow: none
+  .subtitle
+    padding: 3rem 0
+    line-height: 1.5
+.is-friday
+  background-image: linear-gradient(141deg,navy 0,navy 71%,#003c80 100%)  
+  background-color: navy
+.is-thursday 
+  background-image: linear-gradient(141deg,#ff3737 0,#ff3737 71%,#df7000 100%)
+  background-color: #ff3737
