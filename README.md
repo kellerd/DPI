@@ -2,13 +2,18 @@
 
 You'll need to install the following pre-requisites in order to build SAFE applications
 
+
+install [.NET Core SDK](https://www.microsoft.com/net/download) 2.2.402
 ```
 dotnet tool install --global Paket
 dotnet tool install fake-cli -g
-install [.NET Core SDK](https://www.microsoft.com/net/download) 2.2.402
+```
 install [Node LTS](https://nodejs.org/en/download/) installed for the front end components.
 install [Yarn](https://yarnpkg.com/lang/en/docs/install/) package manager (you an also use `npm` but the usage of `yarn` is encouraged).
-```
+
+## Editor
+I like to use VS Code, using the `Ionide` extension
+Visual Studio is also an option.
 
 ## build.fsx
 
